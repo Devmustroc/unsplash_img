@@ -4,11 +4,11 @@ import {Container, Row, Col, Form, Button} from "react-bootstrap";
 const Search = () => {
     return (
         <Container className="mt-4">
-            <Row>
-                <Col>
+            <Row className="justify-content-center">
+                <Col xs={12} md={8} lg={6}>
                     <Form>
                         <Row>
-                            <Col>
+                            <Col xs={9}>
                                 <Form.Control placeholder="Search for new image" />
                             </Col>
                             <Col>
